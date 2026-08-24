@@ -1,0 +1,49 @@
+SecretMaster Binary License, Beta
+
+Copyright (c) 2026 DXVSI. All rights reserved.
+
+1. License grant
+
+Subject to these terms, the copyright holder grants you a limited,
+non-exclusive, non-transferable, revocable, royalty-free license to download,
+install and run an unmodified SecretMaster binary for your personal use or your
+organization's internal use. You may make a reasonable number of backup copies
+for the same use.
+
+2. Restrictions
+
+You may not redistribute, sell, sublicense, rent, host for third parties, modify
+or create derivative works from the proprietary SecretMaster application
+binary. You may not remove proprietary notices or represent yourself as the
+publisher.
+
+These restrictions do not prohibit reverse engineering, debugging, modification
+or replacement to the extent expressly required to exercise rights granted by a
+third-party open-source license included with the application, including the GNU
+Lesser General Public License, or to the extent such a restriction is prohibited
+by applicable law.
+
+3. Third-party software
+
+Third-party components are not licensed under this document. They remain under
+their respective licenses listed in THIRD_PARTY_NOTICES.md and the licenses/
+directory. Those terms control if they conflict with this document for the
+third-party component.
+
+4. Beta software and warranty disclaimer
+
+The beta is provided "AS IS" and "AS AVAILABLE", without warranties of any
+kind, express or implied, including merchantability, fitness for a particular
+purpose, title and non-infringement. The beta may contain defects and should not
+be your only copy of credential material.
+
+To the maximum extent permitted by law, the copyright holder is not liable for
+indirect, incidental, special, consequential or punitive damages, or for loss of
+data, credentials, profits or business, arising from use of or inability to use
+the software.
+
+5. Termination
+
+This license terminates automatically if you materially violate these terms.
+Upon termination, stop using and delete proprietary SecretMaster binaries in
+your possession, except copies retained where required by law.

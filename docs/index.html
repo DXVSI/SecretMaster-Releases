@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SecretMaster is a powerful desktop manager for GitHub Actions variables and secrets, with multi-scope replacement, secure generation and encrypted portable backups.">
+  <title>SecretMaster | GitHub Actions Secrets &amp; Variables Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="SecretMaster home">
+      <svg aria-hidden="true" viewBox="0 0 48 48" width="32" height="32">
+        <rect width="48" height="48" rx="8" fill="currentColor" opacity=".16"/>
+        <path d="M15 22v-5a9 9 0 0 1 18 0v5h3v17H12V22h3Zm5 0h8v-5a4 4 0 0 0-8 0v5Zm4 5a4 4 0 0 0-2 7v3h4v-3a4 4 0 0 0-2-7Z" fill="currentColor"/>
+      </svg>
+      <span>SecretMaster</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#capabilities">Capabilities</a>
+      <a href="#security">Security</a>
+      <a href="__REPOSITORY_URL__/releases">Releases</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="intro" id="top" aria-labelledby="intro-title">
+      <p class="eyebrow">GitHub Actions secrets manager</p>
+      <h1 id="intro-title">One powerful manager for GitHub Actions secrets</h1>
+      <p class="lede">Inventory variables and secret metadata across repositories, environments and organizations. Generate passwords or SSH keys, replace one secret across selected scopes, and push to GitHub only after explicit confirmation.</p>
+      <div class="status" role="note">
+        <strong>Beta:</strong> Windows builds are unsigned. Verify checksums before running either package.
+      </div>
+      <div class="downloads" role="group" aria-label="Latest downloads">
+        <a class="button primary" href="__REPOSITORY_URL__/releases/latest/download/SecretMaster-x86_64.AppImage">Linux AppImage</a>
+        <a class="button" href="__REPOSITORY_URL__/releases/latest/download/SecretMaster-Windows-x86_64.zip">Windows ZIP</a>
+        <a class="text-link" href="__REPOSITORY_URL__/releases/latest/download/SHA256SUMS">SHA-256 checksums</a>
+      </div>
+    </section>
+
+    <section class="section" id="capabilities" aria-labelledby="capabilities-title">
+      <p class="section-index">01</p>
+      <div>
+        <h2 id="capabilities-title">Control every supported scope</h2>
+        <dl class="capability-list">
+          <div>
+            <dt>Inventory</dt>
+            <dd>See GitHub variables and secret metadata across repository, environment and organization scopes.</dd>
+          </div>
+          <div>
+            <dt>Generate</dt>
+            <dd>Create exact-category passwords or Ed25519, ECDSA and RSA SSH keypairs without putting private material in process arguments.</dd>
+          </div>
+          <div>
+            <dt>Generate and replace</dt>
+            <dd>Apply one replacement atomically to selected local scopes. Optional GitHub push is off by default and targets only that confirmed plan.</dd>
+          </div>
+          <div>
+            <dt>Move safely</dt>
+            <dd>Create a portable authenticated encrypted backup containing the database and its matching vault key generation.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" id="security" aria-labelledby="security-title">
+      <p class="section-index">02</p>
+      <div>
+        <h2 id="security-title">Clear security boundaries</h2>
+        <p>GitHub does not return secret plaintext, so no desktop client can import an existing GitHub secret or prove its value by reading it back. SecretMaster verifies local encryption, database lineage and GitHub acceptance metadata instead.</p>
+        <p>Secret values and secret-bearing audit fields in the live SQLite database are encrypted; ordinary variables and metadata are not. Portable backups encrypt the complete archive.</p>
+        <p>The operation called rotation does not change a PostgreSQL account, install an SSH public key or revoke an external credential. Provider-specific rotation requires a provider adapter and remains outside this beta.</p>
+        <div class="links">
+          <a href="__REPOSITORY_URL__/blob/main/THREAT-MODEL.md">Threat model</a>
+          <a href="__REPOSITORY_URL__/blob/main/SECURITY.md">Report a vulnerability</a>
+          <a href="__REPOSITORY_URL__/blob/main/THIRD_PARTY_NOTICES.md">Third-party notices</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Private application source. Public binaries, documentation and release metadata live in the release repository.</p>
+  </footer>
+</body>
+</html>
