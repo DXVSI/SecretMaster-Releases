@@ -16,6 +16,7 @@ release-site repository.
 - [Windows x86_64 portable ZIP](../../releases/latest/download/SecretMaster-Windows-x86_64.zip)
 - [SHA-256 checksums](../../releases/latest/download/SHA256SUMS)
 - [Build information](../../releases/latest/download/build-info.json)
+- [Release news feed](../../releases.atom)
 
 The Windows beta is unsigned. Windows may show a reputation warning. Stable
 Windows releases require Authenticode signing; do not treat an unsigned beta as

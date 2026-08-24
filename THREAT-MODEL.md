@@ -40,7 +40,8 @@ beta.
 
 ## Release assumptions
 
-Users must verify `SHA256SUMS` from the same reviewed release. The first Windows
-beta is unsigned and therefore has weaker publisher identity assurance. The
-release remains a draft until package smoke tests, third-party inventory, license
-texts and the manual checklist are reviewed.
+Users must verify `SHA256SUMS` from the same release. The first Windows beta is
+unsigned and therefore has weaker publisher identity assurance. CI publishes
+only after both package jobs and the release bundle job succeed; when an
+environment reviewer is configured, that reviewer approves the publish job for
+the same workflow run.

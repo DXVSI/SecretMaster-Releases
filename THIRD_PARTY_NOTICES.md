@@ -5,7 +5,7 @@ links to the third-party components below. Their licenses apply only to those
 components and do not change the license of the proprietary application code.
 
 This inventory is the direct-dependency baseline for the first beta. Before a
-draft is published, the packaged DLL and shared-library inventory must be
+release is published, the packaged DLL and shared-library inventory must be
 compared with this file. Any additional library or Qt plugin dependency must add
 its copyright notice, license text and corresponding-source information. This is
 a manual release gate, not a claim that a currently unbuilt artifact has already
